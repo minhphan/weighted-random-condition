@@ -53,7 +53,6 @@ def main():
     # Handle Command-Line Flags
     # -export random messages to csv file, each message is a row
     if '-export' in args:
-        print("yes")
         utils.array_to_csv(randomized_msgs, "RandomMessage.csv")    
     # Pass object to any program to use it    
     return samples
